@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carta de San Valentín</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./valentinesday.png">
+</head>
+<body>
+
+   
+
+<div class="valentines-day">
+  <div class="envelope"></div>
+  <div class="heart"></div>
+  <div class="text">FELIZ DiA DE <br>SAN VALENTIN AMOCHITO<br></div>
+  <div class="front"></div>
+</div>
+
+<div id="card">
+  <div class="side one"></div>
+  <div class="side two">
+    <h2>Para la princesa de mis sueños:</h2>
+    <p>Feliz día de San Valentín mi princesa hermosa. De verdad, me hubiera gustado mucho pasar este día contigo y aunque no esté a tu lado físicamente, siempre voy a estar para ti, para apoyarte en todo y más aún en este viaje que estás a punto de realizar. Vamos a realizar esta travesía juntos de la mano, y prometo no soltarte jamás, pase lo que pase. Quiero ver a mi niña realizar sus sueños y sentirse orgullosa de sí misma, a pesar de que yo me siento orgulloso de ti en cada momento. Eres una persona maravillosa que me roba el corazón cada día. Te amo demasiado, mi niña, y siempre te voy a amar. Eres la persona que me hizo creer en el amor.</p>
+    <p>Siempre tuyo, el que espera ser el amor de tu vida.</p>
+
+  </div>
+</div>
+
+<div id="reproductor">
+  <div id="imagen"></div>
+  <select id="songSelect">
+    <option value="">Sin Música</option>
+    <option value="./compass.mp3">Compass</option>
+    <option value="./Fixyou.mp3">Fix you</option>
+    <option value="./Closetoyou.mp3">Close to you</option>
+    <option value="./goldenhour.mp3">Golden hour</option>
+    <option value="./GoodTogether.mp3">Good together</option>
+    <option value="./HappyTogether.mp3">Happy together</option>
+    <option value="./Heaven.mp3">Heaven</option>
+    <option value="./labiosrotos.mp3">Labios rotos</option>
+    <option value="./Tiroteo.mp3">Tiroteo</option>
+    
+  </select>
+  
+  <audio id="audioPlayer" controls>
+    <source id="audioSource" src="" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+  
+  <input type="range" id="volumeControl" min="0" max="100" value="100" step="1">
+
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="./script.js"></script>
+
+</body>
+</html>
